@@ -1,4 +1,6 @@
 # Discovery
+The data has been loaded into a BigQuery instance and connected to the following Count Canvas: https://count.co/canvas/SNoES0y3yvd (can be accessed but not edited).
+
 ## Raw Data
 List of documents:
 - Artifacts-P1.pdf
