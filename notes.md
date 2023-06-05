@@ -1,5 +1,19 @@
 # Discovery
 ## Raw Data
+List of documents:
+- Artifacts-P1.pdf
+- Artifacts-P2.pdf
+- Artifacts-P3.pdf
+- Loss-P1.pdf
+- Recent-Developments-P1.pdf
+
+List of data files:
+- actions.csv
+- divisions.csv
+- employees.csv
+- managers.csv
+- safehouses.csv
+
 ### Artifacts-P1.pdf
 Multiple words throughout the document are redacted.
 References to Artifact One, Artifact Two and Artifact Three.
