@@ -47,8 +47,37 @@ Tracking down the devices has been a multi-year effort with no reward.
 One of the devices is the most elusive of all three, with very few sightings. 
 In 2023 (exact date is redacted) field operatives secured all 3 artifacts (devices) in a safe house. ```The safe house was later compromised, referenced in Loss-P1.pdf```
 
-## Known Facts
+### divisions.csv
+- 26849 rows
+
+### employees.csv
+- 26844 rows
+
+### managers.csv
+- 3836 rows
+
+### safehouses.csv
+- 202 rows
+
+### actions.csv
+- 97391 rows
+
+# Known Facts
+## Documents
 - Artifacts === Devices
 - There are three (3) devices in circulation, of which one is the most "powerful" (uncertain of that exact meaning).
 - The safe house where the devices were being held was compromised by field agents.
 - The identities of the fields agents who went rogue are unknown and references or data were destroyed in the database(s).
+## Data Exploration
+- There are no safehouses where no employees are "attached".
+- There are 5 employees aka "subjects" with actions who are not listed in the employees table (IDs: 1423, 4284, 14976, 22602, 26188). All subjects share the 219 safehouse (Ecuador) as their known safehouses.
+- Our subjects are the only ones that did actions in the divisions 1, 3, 6, and 10 that weren't reflected in their employee record.
+- There are 630 employees that did actions classified under Division 7 that don't have that division reflected in their employee record.
+- The subjects' actions mention the three devices.
+- Some duplicate employees are present in the data. Same email, but different phones and managers.
+- Jessica Stone is the only manager without any employees.
+
+# Open Questions
+- Do the 630 employees with actions under Division 7 warrant further investigation?
+- What information do we additionally want to retrieve about the 5 subjects?
+- Is Jessica Stone (Manager with employees) relevant to the investigation?
